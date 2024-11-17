@@ -1,0 +1,18 @@
+sudo apt install build-essential
+sudo apt-get install libghc-x11-dev
+sudo apt-get install xorg-dev
+
+https://udomain.dl.sourceforge.net/project/bochs/bochs/2.6.8/bochs-2.6.8.tar.gz
+ tar -zxvf bochs-version
+
+mkdir bochs
+cd bochs-version
+
+./configure --prefix=/home/liyao/Desktop/bochs --enable-debugger --enable-disasm --enable-iodebug --enable-x86-debugger --with-x --with- LDFLAGS='-pthread'
+
+make 
+make install
+
+ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 8b57c5c2836f4beb
+
+

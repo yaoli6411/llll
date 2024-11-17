@@ -8,7 +8,7 @@ https://udomain.dl.sourceforge.net/project/bochs/bochs/2.6.8/bochs-2.6.8.tar.gz
 mkdir bochs
 cd bochs-version
 
-./configure --prefix=/home/liyao/Desktop/bochs --enable-debugger --enable-disasm --enable-iodebug --enable-x86-debugger --with-x --with- LDFLAGS='-pthread'
+./configure --prefix=/home/liyao/Desktop/bochs --enable-debugger --enable-disasm --enable-iodebug --enable-x86-debugger --with-x --with-x11 LDFLAGS='-pthread'
 
 make 
 make install
